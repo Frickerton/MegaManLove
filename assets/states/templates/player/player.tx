@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <tileset firstgid="1" source="../templateTileset32x32.tsx"/>
+ <object name="player" gid="1" width="32" height="32">
+  <properties>
+   <property name="checkpoint" value="start"/>
+   <property name="control" type="bool" value="true"/>
+   <property name="doReady" type="bool" value="true"/>
+   <property name="doWhistleForReady" type="bool" value="true"/>
+   <property name="drop" type="bool" value="true"/>
+   <property name="gravFlip" type="int" value="1"/>
+   <property name="gravMult" type="float" value="1"/>
+   <property name="individual" type="int" value="0"/>
+   <property name="side" type="int" value="1"/>
+   <property name="teleporter" type="bool" value="false"/>
+  </properties>
+ </object>
+</template>
